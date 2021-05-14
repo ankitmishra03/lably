@@ -1,6 +1,7 @@
 package com.xfactor.lably.entity;
 
 public class Lab {
+    private String Id;
 
     private String name;
 
@@ -10,6 +11,15 @@ public class Lab {
 
     private String pincode;
 
+    public String getId() {
+		return this.Id;
+	}
+
+	public void setId(String Id) {
+		this.Id = Id;
+	}
+
+    
     public String getName() {
         return name;
     }
@@ -41,5 +51,7 @@ public class Lab {
     public void setPincode(String pincode) {
         this.pincode = pincode;
     }
+
+    
 
 }
